@@ -16,17 +16,6 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @stack('css')
-    <style>
-        .modal {
-            transition: opacity 0.25s ease;
-        }
-
-        body.modal-active {
-            overflow-x: hidden;
-            overflow-y: visible !important;
-        }
-
-    </style>
     @livewireStyles
 
 </head>

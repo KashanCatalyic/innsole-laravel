@@ -13,10 +13,19 @@ class Ces extends Model
         'ces_code',
         'name',
         'email',
-        'company_name',
+        // 'company_name',
         'website',
+        'phone',
+        'revenue',
+        'package_of_choice',
         'description_1',
         'description_2',
         'valid',
+    ];
+
+    public static $package_of_choice = [
+        1 => 'Starter',
+        2 => 'Startup',
+        3 => 'Startup Plus',
     ];
 }

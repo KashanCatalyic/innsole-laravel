@@ -18,8 +18,10 @@ class CreateCesTable extends Migration
             $table->string('ces_code');
             $table->string('name')->nullable();
             $table->string('email')->nullable();
-            $table->string('company_name')->nullable();
             $table->string('website')->nullable();
+            $table->string('phone')->nullable();
+            $table->string('revenue')->nullable();
+            $table->integer('package_of_choice')->nullable();
             $table->mediumText('description_1')->nullable();
             $table->mediumText('description_2')->nullable();
             $table->boolean('valid')->default(1);
